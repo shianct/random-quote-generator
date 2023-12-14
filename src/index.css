@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#quote-box {
+  background-color: white;
+  text-align: center;
+  width: 500px;
+  border-radius: 2px;
+  padding: 40px;
+}
+
+#content {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#author {
+  font-size: 1.5rem;
+  margin-top: 1 rem;
+  text-align: end;
+}
+
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#new-quote-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+}
+
+footer {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: white;
+  text-align: center;
+}
+
+#footer a {
+  color: white;
+}
